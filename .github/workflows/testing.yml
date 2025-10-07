@@ -1,1 +1,7 @@
+name: "my new infra pipeline"
 
+on: workflow_dispatch
+
+jobs: 
+  terraform-job:
+    runs-on: self-hosted 
