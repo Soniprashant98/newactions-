@@ -1,17 +1,1 @@
-name: "new and first pipeline"
-on: 
- push:
-   branches:
-       - 'feature/**'
-       -  'main'
-       -  'hotfix/**'
 
-jobs:
-  testing:
-    name: mukesh tester
-    runs-on: akhilesh-singh
-    steps:
-    - name: harkesh
-      run: echo Dinesh 
-    
-  
